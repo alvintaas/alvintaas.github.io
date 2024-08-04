@@ -34,6 +34,10 @@ footer {
     width: 100%;
 }
 
+p {
+    font-size: 1.05em;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -99,18 +103,25 @@ section {
     gap: 14px;
 }
 
-.stats div {
+.stats>div {
     flex: 1;
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
+.stats div 1 {
+    font-size: 1.4em;
+}
 
-.icon {
+.stats div div {
     display: grid;
     place-items: center;
-    min-width: 10px;
+    min-width: 40px;
+}
+
+.icon {
+    
 }
 
 .aboutMe {
