@@ -38,6 +38,10 @@ p {
     font-size: 1.05em;
 }
 
+.projectText {
+    margin-bottom: -25px;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -97,6 +101,20 @@ section {
     aspect-ratio: 1/1;
     object-fit: cover;
 }
+
+.headerImageContainer {
+    max-width: 700px;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.headerImageContainer img {
+    width: 100%;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+}
+
+
 
 .link {
     text-decoration: none;
