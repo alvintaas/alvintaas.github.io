@@ -114,7 +114,15 @@ section {
     object-fit: cover;
 }
 
+.portfolioImageContainer{
+    max-width: 800px;
+    overflow: hidden;
+}
 
+.portfolioImageContainer img {
+    width: 100%;
+    object-fit: cover;
+}
 
 .link {
     text-decoration: none;
@@ -233,6 +241,11 @@ section {
     font-size: .9em;
 }
 
+.iframe_weather {
+    height: 750px;
+    width: 600px;
+}
+
 @media (min-width: 640px) {
     .statsContainer {
         flex-direction: row;
@@ -247,3 +260,4 @@ section {
         margin-right: auto;
     }
 }
+
